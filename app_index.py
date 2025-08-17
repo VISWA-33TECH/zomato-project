@@ -9,8 +9,8 @@ def create_connection():
     return mysql.connector.connect(
         host='localhost',
         user='root',  # replace with your MySQL username
-        password='Aswin@113',  # replace with your MySQL password
-        database='zomato'
+        password='VISWA4321',  # replace with your MySQL password
+        database='ZM'
     )
 
 
@@ -93,4 +93,5 @@ def get_orders():
 
 
 if __name__ == '__main__':
+
     app.run(debug=True)
